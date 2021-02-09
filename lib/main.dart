@@ -42,7 +42,7 @@ class _MyAppState extends State<MyApp> {
               child: Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Center(
-                  child: Text(_isLogin ? 'ログアウト' : 'ログイン'),
+                  child: Text(_isLogin ? 'Sign-in' : 'Sign-out'),
                 ),
               ),
             ),
